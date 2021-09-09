@@ -28,8 +28,9 @@ def plot_image(image, factor=1.0, clip_range = None, **kwargs):
 
 def multiple_stamps(betsiboka_coords_wgs84, start, end, year):
 
-    CLIENT_ID = "5a0eee73-51af-4cee-b314-7169ce5798e5"
-    CLIENT_SECRET = "h@{#0;:P^Ol(xk04G#@Q%29r>?k2rrZ>IKg}4h:?"
+    # put here your credentials
+    CLIENT_ID = "***"
+    CLIENT_SECRET = "***"
 
     config = SHConfig()
 
