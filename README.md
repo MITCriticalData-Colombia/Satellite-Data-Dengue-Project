@@ -51,9 +51,9 @@ Extracted from [sentinel-hub](https://docs.sentinel-hub.com/api/latest/data/sent
 
 * (765, 1205) pixels per image - customizable
 
-* Stored in `tiff`format as it contains 7 bands: "B02", "B03", "B04", "B05", "B06", "B07", "B08"
+* Stored in `tiff`format as it contains 7 bands: "B01" - "B12"
 
 * Filtered by least amount of Clouds: leastCC - pixel is selected from tile with the least cloud coverage metadata. Note that "per tile" information is used here, each covering about a 12,000 sq. km area, so this information is only an estimate .
 
-[Download dataset version 1 for 7 bands and RGB - zip file or use in drive](https://drive.google.com/drive/folders/1pBPLmzGg1gNGP2oIfeurb_Rsp2E9k9cU?usp=sharing)
+[Download dataset version 1 for 7 bands](https://drive.google.com/drive/folders/1SxKNhKO1czSFz50_31wS-jlF6jZHpj0O?usp=sharing)
 
