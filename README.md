@@ -1,14 +1,26 @@
-# Multi-temporal images based on sentinel-hub 
+# Multi-temporal images scripts to download satellite imagery from sentinel-hub 
 
-Clone repository and install dependencies in `pip install -r requirements.txt`
+1-. Clone repository and install dependencies in `pip install -r requirements.txt`
 
-Create account on Sentinelhub to obtain [credentials](https://apps.sentinel-hub.com/dashboard/#/): 
+2. Create account on Sentinelhub to obtain [credentials](https://apps.sentinel-hub.com/dashboard/#/): 
 
-Install repository: 
+3. Install sentinelhub API: 
 
-`pip install sentinelhub`
+`pip install sentinelhub` if any errors then: `pip install sentinelhub --upgrade`
 
-`pip install sentinelhub --upgrade`
+or manually:
+
+`git clone https://github.com/sentinel-hub/sentinelhub-py.git`
+
+`cd sentinelhub-py`
+
+` python setup.py build`
+
+` python setup.py install`
+
+` cd ..`
+
+` pip install -r requirements.txt`
 
 For more information, refer to [official documentation](https://sentinelhub-py.readthedocs.io/en/latest/install.html).
 
