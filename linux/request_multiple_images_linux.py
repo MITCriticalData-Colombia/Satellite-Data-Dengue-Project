@@ -20,7 +20,7 @@ import sys
 from datetime import timedelta
 sys.path.insert(0,'..') 
 from sentinelhub import MimeType, CRS, BBox, SentinelHubRequest, SentinelHubDownloadClient, DataCollection, bbox_to_dimensions, DownloadRequest
-from rename import *
+#from rename_linux import *
 from epiweeks import Week, Year
 from datetime import date
 import glob, shutil
@@ -60,11 +60,11 @@ def plot_image(image, factor=1.0, clip_range = None, **kwargs):
     ax.set_xticks([])
     ax.set_yticks([])
 
-def download_multiple_images(coordinates, start, year):
+def download_multiple_images(coordinates, start, year, CLIENT_ID, CLIENT_SECRET):
 
     # put here your credentials
-    CLIENT_ID = "****"
-    CLIENT_SECRET = "***"
+    CLIENT_ID = CLIENT_ID
+    CLIENT_SECRET = CLIENT_SECRET
 
     config = SHConfig()
 
@@ -211,6 +211,6 @@ def get_folder_ID(root_images, img_format):
             path = os.path.join(root, name)
             if "response" in path:
                         
-                folder_path = path.replace("\\" + "response." + img_format, "")
+                folder_path = path.replace("/" + "response." + img_format, "")
 
     return folder_path
