@@ -1,4 +1,4 @@
-# Multi-temporal images scripts to download satellite imagery from sentinel-hub 
+# Satellite data - Dengue Project
 
 1-. Clone repository and install dependencies in `pip install -r requirements.txt`
 
@@ -36,12 +36,12 @@ Based on [epi week](https://www.cmmcp.org/mosquito-surveillance-data/pages/epi-w
 
 * 2019: (2018,12,29) to end first week the (2019,1,5), end (2019,12,31)
 
-* 2020: (2019,12,28) to end first week the  (2020,1,4), end (2019,12,31)
+https://github.com/sebasmos/satellite.extractor/blob/main/Reading_GCP_from_Colab.ipynb* 2020: (2019,12,28) to end first week the  (2020,1,4), end (2019,12,31)
 
 * 2021: (2020,12,26) to end first week the  (2021,1,2), end (2021,9,8)
 
 
-## About dataset version 1: 
+## About data: 
 
 Extracted from [sentinel-hub](https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l1c/), starting from august 2015 to december of 2018, every week. 
 
@@ -55,5 +55,10 @@ Extracted from [sentinel-hub](https://docs.sentinel-hub.com/api/latest/data/sent
 
 * Filtered by least amount of Clouds: leastCC - pixel is selected from tile with the least cloud coverage metadata. Note that "per tile" information is used here, each covering about a 12,000 sq. km area, so this information is only an estimate .
 
-(Download dataset version 1 for 12 bands) [Here](https://drive.google.com/drive/folders/1SxKNhKO1czSFz50_31wS-jlF6jZHpj0O?usp=sharing)
+# Download
 
+1. Download dataset for 5 cities [Here](https://console.cloud.google.com/storage/browser/colombia_sebasmos)
+
+# About API
+
+1. Code for downloading satellite data is mantained [here](https://github.com/sebasmos/satellite.extractor/blob/main/Reading_GCP_from_Colab.ipynbhttps://github.com/sebasmos/satellite.extractor/blob/main/Reading_GCP_from_Colab.ipynbhttps://github.com/sebasmos/satellite.extractor/blob/main/Reading_GCP_from_Colab.ipynb)
