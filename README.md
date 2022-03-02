@@ -4,6 +4,8 @@
 
 2. Create account on Sentinelhub to obtain [credentials](https://apps.sentinel-hub.com/dashboard/#/): 
 
+22
+https://drive.google.com/drive/folders/1SxKNhKO1czSFz50_31wS-jlF6jZHpj0O?usp=sharing
 3. Install sentinelhub API: 
 
 `pip install sentinelhub` if any errors then: `pip install sentinelhub --upgrade`
@@ -36,7 +38,7 @@ Based on [epi week](https://www.cmmcp.org/mosquito-surveillance-data/pages/epi-w
 
 * 2019: (2018,12,29) to end first week the (2019,1,5), end (2019,12,31)
 
-https://github.com/sebasmos/satellite.extractor/blob/main/Reading_GCP_from_Colab.ipynb* 2020: (2019,12,28) to end first week the  (2020,1,4), end (2019,12,31)
+* 2020: (2019,12,28) to end first week the  (2020,1,4), end (2019,12,31)
 
 * 2021: (2020,12,26) to end first week the  (2021,1,2), end (2021,9,8)
 
