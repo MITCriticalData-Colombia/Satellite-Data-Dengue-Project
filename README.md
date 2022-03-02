@@ -55,5 +55,5 @@ Extracted from [sentinel-hub](https://docs.sentinel-hub.com/api/latest/data/sent
 
 * Filtered by least amount of Clouds: leastCC - pixel is selected from tile with the least cloud coverage metadata. Note that "per tile" information is used here, each covering about a 12,000 sq. km area, so this information is only an estimate .
 
-[Download dataset version 1 for 7 bands](https://drive.google.com/drive/folders/1SxKNhKO1czSFz50_31wS-jlF6jZHpj0O?usp=sharing)
+(Download dataset version 1 for 12 bands) [Here](https://drive.google.com/drive/folders/1SxKNhKO1czSFz50_31wS-jlF6jZHpj0O?usp=sharing)
 
