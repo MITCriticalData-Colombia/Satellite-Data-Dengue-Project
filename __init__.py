@@ -1,6 +1,0 @@
-from windows.request_multiple_images import download_multiple_images
-from windows.request_multiple_images import get_folder_ID
-from windows.rename import get_request_individual
-from linux.request_multiple_images_linux import download_multiple_images
-from linux.request_multiple_images_linux import get_folder_ID
-from linux.rename_linux import get_request_individual
